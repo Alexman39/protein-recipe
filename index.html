@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Protein Recipes – Δωρεάν Συνταγές</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__name">SMART PROTEIN</span>
+        <span class="brand__sub">RECIPES</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__link" href="#" aria-current="page">ΣΥΝΤΑΓΕΣ</a>
+        <a class="nav__link" href="#">ΣΧΕΤΙΚΑ</a>
+        <a class="nav__link" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <a class="icon-link" href="#" aria-label="Favorites">♡</a>
+        <a class="icon-link" href="#" aria-label="Account">👤</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__bg" style="background-image:url('assets/hero.jpg')"></div>
+    <div class="container hero__content">
+      <div class="hero__title-row">
+        <a class="back-link" href="#" aria-label="Back">←</a>
+        <div>
+          <h1 class="hero__title">ΔΩΡΕΑΝ ΣΥΝΤΑΓΕΣ</h1>
+          <p class="hero__subtitle">Real food. Real results. The Tasos Misailidis way.</p>
+        </div>
+      </div>
+
+      <div class="hero__tabs" aria-label="Category tabs">
+        <a class="hero__tab is-active" href="#">Δωρεάν Συνταγές</a>
+        <a class="hero__tab" href="#">Πρωινό</a>
+        <a class="hero__tab" href="#">Κυρίως Γεύμα</a>
+        <a class="hero__tab" href="#">Σνακ</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="page">
+    <div class="container">
+
+      <div class="page__toolbar">
+        <div class="page__meta">5 Συνταγές</div>
+
+        <label class="sort">
+          <span class="sort__label">Προκαθορισμένη τάξη</span>
+          <select class="sort__select">
+            <option>Προκαθορισμένη τάξη</option>
+            <option>Περισσότερη πρωτεΐνη</option>
+            <option>Λιγότερες θερμίδες</option>
+            <option>Πιο γρήγορες</option>
+          </select>
+        </label>
+      </div>
+
+      <section class="grid" aria-label="Recipes grid">
+
+        <!-- 1 -->
+        <article class="card">
+          <a class="card__media" href="recipe-protein-pancakes.html">
+            <img src="assets/recipes/protein-pancakes.png" alt="Protein Pancakes (χωρίς αλεύρι)" loading="lazy">
+          </a>
+          <div class="card__body">
+            <h3 class="card__title"><a href="recipe-protein-pancakes.html">Protein Pancakes (χωρίς αλεύρι)</a></h3>
+            <div class="card__category">Πρωινό / Γλυκό</div>
+
+            <div class="card__meta-line">
+              <span>Χρόνος: ~10’</span>
+              <span>310 kcal</span>
+              <span>Πρωτεΐνη: 34g</span>
+            </div>
+
+            <div class="badges">
+              <span class="badge">Πρωινό</span>
+              <span class="badge">High Protein</span>
+              <span class="badge">Pre-Workout</span>
+              <span class="badge">Fat Loss Friendly</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="card">
+          <a class="card__media" href="recipe-chicken-bowl-energy.html">
+            <img src="assets/recipes/chicken-bowl-energy.png" alt="Chicken Bowl Energy" loading="lazy">
+          </a>
+          <div class="card__body">
+            <h3 class="card__title"><a href="recipe-chicken-bowl-energy.html">Chicken Bowl Energy</a></h3>
+            <div class="card__category">Κυρίως Γεύμα</div>
+
+            <div class="card__meta-line">
+              <span>Χρόνος: ~20’</span>
+              <span>470 kcal</span>
+              <span>Πρωτεΐνη: 42g</span>
+            </div>
+
+            <div class="badges">
+              <span class="badge">Κυρίως Γεύμα</span>
+              <span class="badge">Muscle Gain</span>
+              <span class="badge">Balanced</span>
+              <span class="badge">Post-Workout</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="card">
+          <a class="card__media" href="recipe-protein-choco-bites.html">
+            <img src="assets/recipes/protein-choco-bites.png" alt="Protein Choco Bites" loading="lazy">
+          </a>
+          <div class="card__body">
+            <h3 class="card__title"><a href="recipe-protein-choco-bites.html">Protein Choco Bites</a></h3>
+            <div class="card__category">Σνακ / Γλυκό</div>
+
+            <div class="card__meta-line">
+              <span>Χρόνος: ~5’ (+ ψυγείο)</span>
+              <span>190 kcal</span>
+              <span>Πρωτεΐνη: 15g</span>
+            </div>
+
+            <div class="badges">
+              <span class="badge">Σνακ</span>
+              <span class="badge">High Protein</span>
+              <span class="badge">Dessert</span>
+              <span class="badge">Quick</span>
+              <span class="badge">Pre-Workout</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="card">
+          <a class="card__media" href="recipe-power-toast.html">
+            <img src="assets/recipes/power-toast.png" alt="Turkey (ή Chicken) Power Toast" loading="lazy">
+          </a>
+          <div class="card__body">
+            <h3 class="card__title"><a href="recipe-power-toast.html">Turkey (ή Chicken) Power Toast</a></h3>
+            <div class="card__category">Ελαφρύ Γεύμα / Σνακ</div>
+
+            <div class="card__meta-line">
+              <span>Χρόνος: ~10’</span>
+              <span>320 kcal</span>
+              <span>Πρωτεΐνη: 35g</span>
+            </div>
+
+            <div class="badges">
+              <span class="badge">Quick Meal</span>
+              <span class="badge">Pre-Workout</span>
+              <span class="badge">High Protein</span>
+              <span class="badge">On-the-Go</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="card">
+          <a class="card__media" href="recipe-beef-sweet-potato.html">
+            <img src="assets/recipes/beef-sweet-potato.png" alt="Beef & Sweet Potato Power Meal" loading="lazy">
+          </a>
+          <div class="card__body">
+            <h3 class="card__title"><a href="recipe-beef-sweet-potato.html">Beef & Sweet Potato Power Meal</a></h3>
+            <div class="card__category">Κυρίως Γεύμα</div>
+
+            <div class="card__meta-line">
+              <span>Χρόνος: ~30’</span>
+              <span>520 kcal</span>
+              <span>Πρωτεΐνη: 45g</span>
+            </div>
+
+            <div class="badges">
+              <span class="badge">Κυρίως Γεύμα</span>
+              <span class="badge">Post-Workout</span>
+              <span class="badge">Muscle Recovery</span>
+              <span class="badge">High Protein</span>
+            </div>
+
+          </div>
+        </article>
+
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__brand">SMART PROTEIN RECIPES</div>
+        <ul class="footer__list">
+          <li>Αθήνα, Ελλάδα</li>
+          <li>support@smartproteinrecipes.gr</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__title">ΥΠΗΡΕΣΙΕΣ</div>
+        <ul class="footer__list">
+          <li><a href="index.html">Δωρεάν Συνταγές</a></li>
+          <li><a href="#">Premium Συνταγές</a></li>
+          <li><a href="#">Meal Prep Guides</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__title">ΧΡΗΣΙΜΑ</div>
+        <ul class="footer__list">
+          <li><a href="#">Όροι Χρήσης</a></li>
+          <li><a href="#">Πολιτική Απορρήτου</a></li>
+          <li><a href="#">Τρόποι Πληρωμής</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__title">Follow</div>
+        <div class="footer__icons">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">i</a>
+          <a href="#" aria-label="YouTube">y</a>
+          <a href="#" aria-label="TikTok">t</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      © 2025 Smart Protein Recipes. All rights reserved.
+    </div>
+
+    <a class="to-top" href="#" aria-label="Scroll to top">↑</a>
+  </footer>
+
+</body>
+</html>
